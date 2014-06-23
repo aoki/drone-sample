@@ -1,0 +1,4 @@
+image: scala:2.10.3
+script:
+  - scalac Hello.scala
+  - scala Hello
